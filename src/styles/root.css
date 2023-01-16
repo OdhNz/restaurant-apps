@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, main {
+  height: 100%;
+  width: 100%;
+}
+
+:root {
+  --primary: #00ADB5;
+  --secondary: #EEEEEE;
+  --tertiary: #222831;
+  --textcolor: #393E46;
+}
+
+header {
+    height: 51px;
+    padding-top: 5px;
+}
+
+main {
+  padding-top: 0px;
+}
+
+main h1, main h2, main h3 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI Light", sans-serif;
+  display: grid;
+  grid-template-rows: 1fr 8fr 1fr;
+}
+
+img {
+  display: block;
+}
