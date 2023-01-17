@@ -22,12 +22,9 @@ class Home {
   }
 
   static async afterRender() {
-    // const jumbotronElement = document.querySelector('.jumbotron');
     const mainContent = document.querySelector('#content');
     const loadingElement = document.querySelector('loading-indicator');
     const restaurantListElement = document.querySelector('restaurant-list');
-
-    // jumbotronElement.style.backgroundImage = "url('./images/heros/hero-image_4.jpg')";
 
     try {
       const response = await ApiRepository.getRestaurantList();
