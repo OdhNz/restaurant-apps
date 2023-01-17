@@ -7,9 +7,9 @@ class Home {
     return `
           <section class="jumbotron">
           <picture>
-            <source media="(min-width:601px)" srcset="./images/heros/hero-image_4.jpg">
-            <source media="(max-width:600px)" srcset="./images/heros/hero-image_4.jpg">
-            <img src="./images/heros/hero-image_4.jpg" alt="Heroes Image">
+            <source media="(min-width:601px)" srcset="./images/heros/hero-image_4-large.jpg">
+            <source media="(max-width:600px)" srcset="./images/heros/hero-image_4-small.jpg">
+            <img src="./images/heros/hero-image_4-large.jpg" alt="Heroes Image">
           </picture>
               <h1 class="jumbotron-title">Restaurant<br>"Best in the city"</h1>
           </section>
